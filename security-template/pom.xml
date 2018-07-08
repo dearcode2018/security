@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>security-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+	<artifactId>security-template</artifactId>
+	<packaging>jar</packaging>
+	<name>security-template</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<security.core.version>0.0.1</security.core.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>security-core</artifactId>
+			<version>${security.core.version}</version>
+		</dependency>
+		
+	</dependencies>
+
+</project>
